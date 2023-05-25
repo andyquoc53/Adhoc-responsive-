@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/Study Bootstrap/Adhoc design/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Adhoc Design Website
+  </title>
+</head>
+<body>
+  <header>
+    <div class="container pb-5">
+      <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light ">
+        <a class='navbar-brand mb-0' href="#">
+          <img class="d-inline-block" src="/Study Bootstrap/Adhoc design/image/logo.webp" alt="Logo">
+        </a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Test</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Our team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    
+    <div class="jumbotron position-relative">
+      <img src="/Study Bootstrap/Adhoc design/image/jumbotron.webp" alt="image" class=" custom-max-height img-fluid w-100">
+      <div class="jumbotron-main position-absolute top-50 start-50  translate-middle w-100 text-center">
+        <h1 class="display-sm-4 my-0 display-5">Administration made easy
+        </h1>
+        <p class="lead fs-6 fs-sm-4 my-0">
+          Adhoc is an on-demand administrative service for your company growth
+        </p>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="row">
+        <p class="fst-italic fw-light fs-5 fs-sm-3 text-start mt-5">"Thanks to Adhoc we now have beautiful and faithful service every day. Our customers are happy and engagement has drastically increased. Highly recommend!"</p>
+      </div>
+      <div class="row text-end fst-italic ">
+          <p class="fw-bold">-Dave Ellavar, <span class="fw-light">Academy of Code</span></p>
+      </div>
+    <!--CARD-->       
+    <div class="row">
+      <h2 class="display-4 text-center mt-4">Why Adhoc?</h2>
+    </div>
+    <div class="row my-5 justify-content-around">
+      <!--Card 1-->
+      <div class="col-4 card border-0" style="max-width: 18rem">
+        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/experienced.png" alt="experienced" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text text-center">Over 9000 happy clients, and we learn something new from each one.</p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="col-4 card border-0" style="max-width: 18rem">
+        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/fun.png" alt="fun" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text text-center">Administration? Fun? Yea, somehow we make it happen.</p>
+        </div>
+      </div>
+      <!--Card 3-->
+      <div class="col-4 card border-0" style="max-width: 18rem">
+        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/smart.png" alt="smart" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text text-center">Innovative solutions to the trickest of everyday tasks.</p>
+        </div>
+      </div>
+    </div>
+<!--About Us-->
+    <div class="row bg-dark rounded-3 py-3">
+      <div class="row">
+        <h2 class="display-sm-4 display-6 text-light text-center">Meet the Team</h2>
+      </div>
+
+      <!--check real-->
+      <div class="row">
+        <div class="carousel slide w-50 mx-auto" id="carousel-caption" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel-caption" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          
+          <div class="carousel-inner">
+      
+            <!--First carousel-->
+            <div class="carousel-item active">
+              <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/brian.png" alt="brian-ceo" class="d-block w-100">
+              <div class="carousel-caption d-flex justify-content-center pt-6">
+                <p class="bg-dark text-light w-100 mb-0 ">CEO: Andy</p>
+              </div>
+            </div>
+          
+      
+          <!--Second carousel-->
+          <div class="carousel-item">
+            <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/andy.png" alt="brian-ceo" class="d-block w-100">
+            <div class="carousel-caption d-flex justify-content-center">
+              <p class="bg-dark text-light w-100 mb-0 ">CEO: 2</p>
+            </div>
+          </div>
+          <!--Third-->
+          <div class="carousel-item">
+            <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/angela.png" alt="brian-ceo" class="d-block w-100">
+            <div class="carousel-caption d-flex justify-content-center">
+              <p class="bg-dark text-light w-100 mb-0 ">CEO: 3</p>
+            </div>
+          </div>
+          <!--Fourth-->
+          <div class="carousel-item">
+            <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/amie.png" alt="second" class="d-block w-100">
+            <div class="carousel-caption d-flex justify-content-center">
+              <p class="bg-dark text-light w-100 mb-0 ">CEO: 4</p>
+            </div>
+          </div>
+      
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-caption" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-caption" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+
+  </main>
+  <footer>
+    <p class="text-center my-3">2023 by Andy Nguyen&copy;</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> 
+
+
+
+</body>
+</html>
